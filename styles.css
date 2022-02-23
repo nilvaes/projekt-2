@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto+Slab&display=swap');
+/*  font-family: 'Roboto Slab', serif; 
+    font-family: 'Quicksand', sans-serif;
+ */
+
+* {
+  box-sizing: border-box;
+  font-family: Quicksand, sans-serif;
+  color:rgb(15, 15, 15)
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.navi ul {
+  margin: 0;
+}
+
+.navi li {
+  display: inline;
+}
+
+.navi a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.navi.main-navi {
+  text-align: center;
+  font-size: 22px;
+  font-weight: lighter;
+  border-bottom: 1px solid grey;
+}
+
+.main-navi li {
+  padding: 0 1%;
+}
+
+.main-container {
+  background-image: url("images/gettyimages-168346757_web.jpg");
+  background-color: lightslategray;
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px
+}
+
+
+
+.projekt-name,
+.header-about {
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+  font-weight: lighter;
+  color: white;
+  font-family:'Roboto Slab', serif;
+}
+
+.header-about {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+
+
+.content-para {
+  margin: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.content-heading {
+  font-weight: normal;
+  color: #333;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+
+.pic-para.first-pic {
+  float: right;
+  height: 250px;
+  width: 250px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.pic-para.second-pic {
+  float: left;
+  height: 250px;
+  width: 250px;
+  margin: 0 15px 15px 0;
+  border-radius: 50%;
+}
+
+.main-footer {
+  background-image:url("images/end-part.jpg");
+  background-color: lightslategray;
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding: 4px 0; 
+  margin-top: 120px;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center; 
+  
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-navi li {
+  padding: 0 1px;
+
+}
+
+.footer-navi img {
+  width: 40px;
+  height: 40px;
+  
+}
+
+.contact-info {
+  text-align: center;
+  margin: 100px auto;
+  font-size: 18px;
+
+}
+
+.place-holder {
+  margin-bottom: 250px;
+}
