@@ -146,3 +146,13 @@ body {
 .place-holder {
   margin-bottom: 250px;
 }
+
+
+
+
+
+.main-footer.contact-footer {
+  position: fixed;
+  width:100%;
+  bottom: 0;
+}
